@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Заключение договора",
+  "name": "IISKursovaya6ЗаключениеДоговораE",
+  "className": "ЗаключениеДоговораE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya6-заключение-договора",
+      "modelProjection": "ЗаключениеДоговораE"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya6-расторжение-договора-e",
+  "editForm": "i-i-s-kursovaya6-расторжение-договора-e",
+  "external": false,
+  "caption": "Расторжение договора",
+  "name": "IISKursovaya6РасторжениеДоговораL",
+  "className": "РасторжениеДоговораL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya6-расторжение-договора",
+      "modelProjection": "РасторжениеДоговораL"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+﻿{
+  "name": "IISKursovaya6ОказаниеКонсультаций",
+  "modelName": "i-i-s-kursovaya6-оказание-консультаций",
+  "className": "ОказаниеКонсультаций",
+  "nameSpace": "IIS.Kursovaya6",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "времяКонсультации",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "дата",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "предоставленнаяУслуга",
+      "type": "i-i-s-kursovaya6-услуга",
+      "flexberryType": "Услуга",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "клиент",
+      "relatedTo": "i-i-s-kursovaya6-клиент",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "расчетОставшегосяВремени",
+      "relatedTo": "i-i-s-kursovaya6-расчет-оставшегося-времени",
+      "inverse": "оказаниеКонсультаций"
+    }
+  ],
+  "projections": [
+    {
+      "name": "ОказаниеКонсультацийE",
+      "modelName": "i-i-s-kursovaya6-оказание-консультаций",
+      "attrs": [
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "времяКонсультации",
+          "caption": "Время консультации",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "предоставленнаяУслуга",
+          "caption": "Предоставленная услуга",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "РасчетОставшегосяВремениE",
+          "caption": "Расчет оставшегося времени",
+          "name": "расчетОставшегосяВремени",
+          "relatedTo": "i-i-s-kursovaya6-расчет-оставшегося-времени",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "ОказаниеКонсультацийL",
+      "modelName": "i-i-s-kursovaya6-оказание-консультаций",
+      "attrs": [
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "времяКонсультации",
+          "caption": "Время консультации",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "предоставленнаяУслуга",
+          "caption": "Предоставленная услуга",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Клиент",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фамилия",
+              "caption": "Фамилия",
+              "hidden": false,
+              "index": 3
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Фамилия",
+          "name": "клиент",
+          "relatedTo": "i-i-s-kursovaya6-клиент",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

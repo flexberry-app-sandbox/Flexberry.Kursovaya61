@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Оказание консультаций",
+  "name": "IISKursovaya6ОказаниеКонсультацийE",
+  "className": "ОказаниеКонсультацийE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya6-оказание-консультаций",
+      "modelProjection": "ОказаниеКонсультацийE"
+    }
+  ]
+}

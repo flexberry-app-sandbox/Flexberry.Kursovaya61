@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Расторжение договора",
+  "name": "IISKursovaya6РасторжениеДоговораE",
+  "className": "РасторжениеДоговораE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya6-расторжение-договора",
+      "modelProjection": "РасторжениеДоговораE"
+    }
+  ]
+}

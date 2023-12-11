@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya6-заключение-договора-e",
+  "editForm": "i-i-s-kursovaya6-заключение-договора-e",
+  "external": false,
+  "caption": "Заключение договора",
+  "name": "IISKursovaya6ЗаключениеДоговораL",
+  "className": "ЗаключениеДоговораL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya6-заключение-договора",
+      "modelProjection": "ЗаключениеДоговораL"
+    }
+  ]
+}
