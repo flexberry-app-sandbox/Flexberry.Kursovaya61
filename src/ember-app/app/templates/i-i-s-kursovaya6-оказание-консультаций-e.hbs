@@ -56,6 +56,36 @@
     {{flexberry-validationmessage error=(v-get validationModel "предоставленнаяУслуга" "message")}}
   </div>
   <div class="field">
+    {{flexberry-field
+      readonly=true
+      value=model.клиент.фамилия
+      class=(if (v-get validationModel.клиент "фамилия" "isInvalid") "error")
+      label=(t "forms.i-i-s-kursovaya6-оказание-консультаций-e.клиент.фамилия-caption")
+      data-test-i-i-s-kursovaya6-оказание-консультаций-e-клиент-фамилия=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel.клиент "фамилия" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=true
+      value=model.клиент.имя
+      class=(if (v-get validationModel.клиент "имя" "isInvalid") "error")
+      label=(t "forms.i-i-s-kursovaya6-оказание-консультаций-e.клиент.имя-caption")
+      data-test-i-i-s-kursovaya6-оказание-консультаций-e-клиент-имя=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel.клиент "имя" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=true
+      value=model.клиент.отчество
+      class=(if (v-get validationModel.клиент "отчество" "isInvalid") "error")
+      label=(t "forms.i-i-s-kursovaya6-оказание-консультаций-e.клиент.отчество-caption")
+      data-test-i-i-s-kursovaya6-оказание-консультаций-e-клиент-отчество=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel.клиент "отчество" "message")}}
+  </div>
+  <div class="field">
     <label>{{t "forms.i-i-s-kursovaya6-оказание-консультаций-e.расчетОставшегосяВремени-caption"}}</label>
     {{flexberry-groupedit
       componentName="расчетОставшегосяВремениGroupEdit"

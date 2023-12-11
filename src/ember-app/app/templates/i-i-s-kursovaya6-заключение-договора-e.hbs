@@ -65,4 +65,64 @@
     }}
     {{flexberry-validationmessage error=(v-get validationModel "стоимость" "message")}}
   </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=true
+      value=model.директорОтделаПоРаботеСКлиентами.фамилия
+      class=(if (v-get validationModel.директорОтделаПоРаботеСКлиентами "фамилия" "isInvalid") "error")
+      label=(t "forms.i-i-s-kursovaya6-заключение-договора-e.директорОтделаПоРаботеСКлиентами.фамилия-caption")
+      data-test-i-i-s-kursovaya6-заключение-договора-e-директорОтделаПоРаботеСКлиентами-фамилия=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel.директорОтделаПоРаботеСКлиентами "фамилия" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=true
+      value=model.директорОтделаПоРаботеСКлиентами.имя
+      class=(if (v-get validationModel.директорОтделаПоРаботеСКлиентами "имя" "isInvalid") "error")
+      label=(t "forms.i-i-s-kursovaya6-заключение-договора-e.директорОтделаПоРаботеСКлиентами.имя-caption")
+      data-test-i-i-s-kursovaya6-заключение-договора-e-директорОтделаПоРаботеСКлиентами-имя=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel.директорОтделаПоРаботеСКлиентами "имя" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=true
+      value=model.директорОтделаПоРаботеСКлиентами.отчество
+      class=(if (v-get validationModel.директорОтделаПоРаботеСКлиентами "отчество" "isInvalid") "error")
+      label=(t "forms.i-i-s-kursovaya6-заключение-договора-e.директорОтделаПоРаботеСКлиентами.отчество-caption")
+      data-test-i-i-s-kursovaya6-заключение-договора-e-директорОтделаПоРаботеСКлиентами-отчество=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel.директорОтделаПоРаботеСКлиентами "отчество" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=true
+      value=model.клиент.фамилия
+      class=(if (v-get validationModel.клиент "фамилия" "isInvalid") "error")
+      label=(t "forms.i-i-s-kursovaya6-заключение-договора-e.клиент.фамилия-caption")
+      data-test-i-i-s-kursovaya6-заключение-договора-e-клиент-фамилия=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel.клиент "фамилия" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=true
+      value=model.клиент.имя
+      class=(if (v-get validationModel.клиент "имя" "isInvalid") "error")
+      label=(t "forms.i-i-s-kursovaya6-заключение-договора-e.клиент.имя-caption")
+      data-test-i-i-s-kursovaya6-заключение-договора-e-клиент-имя=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel.клиент "имя" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=true
+      value=model.клиент.отчество
+      class=(if (v-get validationModel.клиент "отчество" "isInvalid") "error")
+      label=(t "forms.i-i-s-kursovaya6-заключение-договора-e.клиент.отчество-caption")
+      data-test-i-i-s-kursovaya6-заключение-договора-e-клиент-отчество=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel.клиент "отчество" "message")}}
+  </div>
 </form>

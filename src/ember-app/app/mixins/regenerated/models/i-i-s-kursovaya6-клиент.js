@@ -64,7 +64,7 @@ export let defineProjections = function (modelClass) {
   });
 
   modelClass.defineProjection('КлиентL', 'i-i-s-kursovaya6-клиент', {
-    id: attr('Id', { index: 0 }),
+    id: attr('Id Клиента', { index: 0 }),
     фамилия: attr('Фамилия', { index: 1 }),
     имя: attr('Имя', { index: 2 }),
     отчество: attr('Отчество', { index: 3 }),

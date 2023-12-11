@@ -54,6 +54,11 @@ export let defineProjections = function (modelClass) {
     дата: attr('Дата', { index: 0 }),
     времяКонсультации: attr('Время консультации', { index: 1 }),
     предоставленнаяУслуга: attr('Предоставленная услуга', { index: 2 }),
+    клиент: belongsTo('i-i-s-kursovaya6-клиент', '', {
+      фамилия: attr('', { index: 3 }),
+      имя: attr('', { index: 4 }),
+      отчество: attr('', { index: 5 })
+    }, { index: -1, hidden: true }),
     расчетОставшегосяВремени: hasMany('i-i-s-kursovaya6-расчет-оставшегося-времени', 'Расчет оставшегося времени', {
       использовано: attr('Использовано', { index: 0 }),
       доступно: attr('Доступно', { index: 1 })

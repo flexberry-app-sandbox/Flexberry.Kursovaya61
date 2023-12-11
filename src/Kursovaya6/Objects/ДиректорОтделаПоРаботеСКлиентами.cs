@@ -30,7 +30,7 @@ namespace IIS.Kursovaya6
     [Caption("Директор отдела по работе с клиентами")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ДиректорОтделаПоРаботеСКлиентамиE", new string[] {
-            "id as \'Id\'",
+            "id as \'Id Директора\'",
             "Фамилия as \'Фамилия\'",
             "Имя as \'Имя\'",
             "Отчество as \'Отчество\'",

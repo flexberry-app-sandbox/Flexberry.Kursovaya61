@@ -70,7 +70,17 @@ export let defineProjections = function (modelClass) {
     дата: attr('Дата', { index: 0 }),
     номер: attr('Номер', { index: 1 }),
     тип: attr('Тип', { index: 2 }),
-    стоимость: attr('Стоимость', { index: 3 })
+    стоимость: attr('Стоимость', { index: 3 }),
+    директорОтделаПоРаботеСКлиентами: belongsTo('i-i-s-kursovaya6-директор-отдела-по-работе-с-клиентами', '', {
+      фамилия: attr('', { index: 4 }),
+      имя: attr('', { index: 5 }),
+      отчество: attr('', { index: 6 })
+    }, { index: -1, hidden: true }),
+    клиент: belongsTo('i-i-s-kursovaya6-клиент', '', {
+      фамилия: attr('', { index: 7 }),
+      имя: attr('', { index: 8 }),
+      отчество: attr('', { index: 9 })
+    }, { index: -1, hidden: true })
   });
 
   modelClass.defineProjection('ЗаключениеДоговораL', 'i-i-s-kursovaya6-заключение-договора', {

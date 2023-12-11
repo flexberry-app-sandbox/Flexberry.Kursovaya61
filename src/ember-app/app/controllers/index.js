@@ -22,31 +22,31 @@ export default Controller.extend({
             link: 'i-i-s-kursovaya6-директор-отдела-по-работе-с-клиентами-l',
             caption: i18n.t('forms.application.sitemap.kursovaya6.i-i-s-kursovaya6-директор-отдела-по-работе-с-клиентами-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya6.i-i-s-kursovaya6-директор-отдела-по-работе-с-клиентами-l.title'),
-            icon: 'building',
+            icon: 'tasks',
             children: null
           }, {
             link: 'i-i-s-kursovaya6-оказание-консультаций-l',
             caption: i18n.t('forms.application.sitemap.kursovaya6.i-i-s-kursovaya6-оказание-консультаций-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya6.i-i-s-kursovaya6-оказание-консультаций-l.title'),
-            icon: 'calendar',
+            icon: 'file',
             children: null
           }, {
             link: 'i-i-s-kursovaya6-расторжение-договора-l',
             caption: i18n.t('forms.application.sitemap.kursovaya6.i-i-s-kursovaya6-расторжение-договора-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya6.i-i-s-kursovaya6-расторжение-договора-l.title'),
-            icon: 'folder',
+            icon: 'tasks',
             children: null
           }, {
             link: 'i-i-s-kursovaya6-клиент-l',
             caption: i18n.t('forms.application.sitemap.kursovaya6.i-i-s-kursovaya6-клиент-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya6.i-i-s-kursovaya6-клиент-l.title'),
-            icon: 'table',
+            icon: 'suitcase',
             children: null
           }, {
             link: 'i-i-s-kursovaya6-заключение-договора-l',
             caption: i18n.t('forms.application.sitemap.kursovaya6.i-i-s-kursovaya6-заключение-договора-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya6.i-i-s-kursovaya6-заключение-договора-l.title'),
-            icon: 'file',
+            icon: 'folder open',
             children: null
           }]
         }

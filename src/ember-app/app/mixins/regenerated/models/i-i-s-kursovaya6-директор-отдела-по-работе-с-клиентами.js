@@ -61,7 +61,7 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ДиректорОтделаПоРаботеСКлиентамиE', 'i-i-s-kursovaya6-директор-отдела-по-работе-с-клиентами', {
-    id: attr('Id', { index: 0 }),
+    id: attr('Id Директора', { index: 0 }),
     фамилия: attr('Фамилия', { index: 1 }),
     имя: attr('Имя', { index: 2 }),
     отчество: attr('Отчество', { index: 3 }),

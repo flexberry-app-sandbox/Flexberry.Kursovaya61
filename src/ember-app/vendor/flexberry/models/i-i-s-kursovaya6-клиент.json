@@ -114,7 +114,7 @@
       "attrs": [
         {
           "name": "id",
-          "caption": "Id",
+          "caption": "Id Клиента",
           "hidden": false,
           "index": 0
         },

@@ -79,7 +79,7 @@
       "attrs": [
         {
           "name": "id",
-          "caption": "Id",
+          "caption": "Id Директора",
           "hidden": false,
           "index": 0
         },
